@@ -1,0 +1,5 @@
+1** - Hold On
+2** - Here you go
+3** - Go away
+4** - user error
+5** - server error
