@@ -5,6 +5,7 @@ alias GridCity="cd ~/GitHub/GridCity;clear;git status;";
 alias BlindAlive="cd ~/GitHub/Blind-Alive/ubuntu;clear;git status;";
 alias YouHangIt="cd ~/GitHub/YouHangIt/ubuntu/SoT/;clear;git status";
 alias ReblCrew="cd ~/GitHub/ReblCrewProductions/ubuntu;clear;git status;";
+alias V2="cd ~/GitHub/V2/www/sot;clear;git status";
 
 alias dbConn="mysql --defaults-file=/home/ubuntu/dbBackup/root.cnf -u root";
 alias dbConnGridCity="mysql --defaults-file=/home/ubuntu/dbBackup/root.cnf -u root gridCity";
