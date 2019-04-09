@@ -21,17 +21,18 @@ mkdir -p /var/www/addons/
 sudo apt-get update
 sudo apt-get install apache2
 sudo a2enmod rewrite
-sudo apt-get install php5 libapache2-mod-php7.0 php7.0-mcrypt php7.0-curl
 sudo apt-get install mysql-server php5-mysql
 sudo apt-get install ant
 sudo mysql_install_db
 sudo mysql_secure_installation
 
-sudo apt-get install software-properties-common
-sudo add-apt-repository ppa:ondrej/php
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get install php5.6
+sudo apt install php libapache2-mod-php php-mysql
+    sudo apt-get install php5 libapache2-mod-php7.0 php7.0-mcrypt php7.0-curl
+    sudo apt-get install software-properties-common
+    sudo add-apt-repository ppa:ondrej/php
+    sudo apt-get update
+    sudo apt-get upgrade
+    sudo apt-get install php5.6
 
 create database yhi;
 create database blindAliveBuyPortal;
