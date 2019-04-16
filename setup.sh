@@ -21,7 +21,7 @@ mkdir -p /var/www/addons/
 sudo apt-get update
 sudo apt-get install apache2
 sudo a2enmod rewrite
-sudo apt-get install mysql-server php5-mysql
+sudo apt-get install mysql-server
 sudo apt-get install ant
 sudo mysql_install_db
 sudo mysql_secure_installation
