@@ -37,5 +37,5 @@ export MACHINE="dev"
 
 #https://certbot.eff.org/
 
-CREATE USER 'mjfandb'@'localhost' IDENTIFIED BY '5v@2Z2vUJ';
+
 
