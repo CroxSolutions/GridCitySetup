@@ -1,5 +1,4 @@
 # Dev Server
-alias home="cd ~";
 alias dev=". /home/ubuntu/devMenu.sh";
 alias GridCity="cd ~/GitHub/GridCity;clear;git status;";
 alias BlindAlive="cd ~/GitHub/Blind-Alive/ubuntu;clear;git status;";
@@ -16,6 +15,7 @@ alias dbBlindAliveRestore="mysql --defaults-file=/home/ubuntu/dbBackup/ba.cnf -u
 alias dbConnYouHangIt="mysql --defaults-file=/home/ubuntu/dbBackup/yhi.cnf -u root yhi";
 
 # helpers
+alias home="cd ~";
 alias Rabbit="LS -al;sudo apt-get update;sudo apt-get -y dist-upgrade;clear;cowsay update complete;";
 alias FluShot="sudo apt-get -y autoremove;cowsay autoremove complete";
 alias smallPox="sudo service apache2 reload;sudo service apache2 restart;cowsay apache rebooted;";
