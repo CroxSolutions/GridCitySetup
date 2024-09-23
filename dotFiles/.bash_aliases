@@ -1,5 +1,7 @@
 #ssh
 
+#projects
+
 # helpers
 alias Rabbit="sl -al;sudo apt-get update;sudo apt-get -y dist-upgrade;clear;cowsay update complete;";
 alias FluShot="sudo apt-get -y autoremove;cowsay autoremove complete";
