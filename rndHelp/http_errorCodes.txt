@@ -1,5 +1,107 @@
-1** - Hold On
-2** - Here you go
-3** - Go away
-4** - user error
-5** - server error
+{
+  "1xx": {
+    "category": "Hold On",
+    "codes": {
+      "100": {
+        "official": "Continue",
+        "description": "The server received the initial part of the request and the client should continue."
+      },
+      "101": {
+        "official": "Switching Protocols",
+        "description": "The server agrees to switch protocols as requested by the client."
+      },
+      "102": {
+        "official": "Processing",
+        "description": "The server has received and is processing the request but no response is available yet."
+      }
+    }
+  },
+  "2xx": {
+    "category": "Here You Go",
+    "codes": {
+      "200": {
+        "official": "OK",
+        "description": "The request succeeded and the server returned the requested data."
+      },
+      "201": {
+        "official": "Created",
+        "description": "The request succeeded and a new resource was created as a result."
+      },
+      "202": {
+        "official": "Accepted",
+        "description": "The request was accepted for processing, but it has not been completed."
+      },
+      "204": {
+        "official": "No Content",
+        "description": "The request succeeded but no content is returned."
+      }
+    }
+  },
+  "3xx": {
+    "category": "Go Away",
+    "codes": {
+      "301": {
+        "official": "Moved Permanently",
+        "description": "The resource has been moved permanently to a new URL."
+      },
+      "302": {
+        "official": "Found",
+        "description": "The resource has temporarily moved to a different URL."
+      },
+      "304": {
+        "official": "Not Modified",
+        "description": "The resource hasn't changed since the last request."
+      }
+    }
+  },
+  "4xx": {
+    "category": "User Error",
+    "codes": {
+      "400": {
+        "official": "Bad Request",
+        "description": "The server couldn't understand the request due to invalid syntax."
+      },
+      "401": {
+        "official": "Unauthorized",
+        "description": "Authentication is required to access this resource."
+      },
+      "403": {
+        "official": "Forbidden",
+        "description": "The client does not have permission to access this resource."
+      },
+      "404": {
+        "official": "Not Found",
+        "description": "The requested resource could not be found on the server."
+      },
+      "429": {
+        "official": "Too Many Requests",
+        "description": "The client has sent too many requests in a given amount of time."
+      }
+    }
+  },
+  "5xx": {
+    "category": "Server Error",
+    "codes": {
+      "500": {
+        "official": "Internal Server Error",
+        "description": "The server encountered an unexpected condition that prevented it from fulfilling the request."
+      },
+      "501": {
+        "official": "Not Implemented",
+        "description": "The server does not support the functionality required to fulfill the request."
+      },
+      "502": {
+        "official": "Bad Gateway",
+        "description": "The server received an invalid response from the upstream server."
+      },
+      "503": {
+        "official": "Service Unavailable",
+        "description": "The server is currently unable to handle the request due to temporary overload or maintenance."
+      },
+      "504": {
+        "official": "Gateway Timeout",
+        "description": "The server did not receive a timely response from an upstream server."
+      }
+    }
+  }
+}

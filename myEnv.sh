@@ -1,5 +1,7 @@
 #core
-sudo apt-get install sl cowsay cmatrix git zip screen tmux
+sudo apt-get install sl cowsay cmatrix git zip screen
+
+tmux
 
 sudo dpkg-reconfigure tzdata
 
